@@ -9,8 +9,6 @@ import { Router } from '@angular/router';
   imports: [FormsModule],
 })
 export class LoginComponent {
-  username: string = '';
-  password: string = '';
   constructor(private router: Router) { }
 
   login() {

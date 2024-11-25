@@ -1,25 +1,93 @@
-.form-group {
-    label {
-        font-size: $font-14;
-        margin-bottom: 0.5rem;
-        text-transform: capitalize;
-    }
+.login {
+    display: flex;
+    justify-content: space-between;
 
-    .form-control {
-        padding: 1.1rem 1.7rem;
-        font-size: 0.75rem;
-        letter-spacing: 0.06px;
-        font-weight: 300;
-        margin-bottom: 1.3rem;
-        border-radius: 0.32rem;
+    .login-content {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        box-shadow: 0px 19px 40px 0px #0000000D;
+        margin: 6rem 7rem 6rem 6rem;
+        padding: 4rem;
 
-        &::placeholder {
-            color: #8D8D8D;
+        .title {
+            font-size: 2.75rem;
+            margin-bottom: 1.7rem;
+        }
+
+        .description {
+            font-weight: 400;
+            color: #00000080;
+            line-height: 1.3rem;
+            margin-bottom: 0.77rem;
+        }
+
+        .title-form {
+            font-size: 3.5rem;
+            margin-bottom: 1.875rem;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: $black;
+            font-weight: 300;
+        }
+
+        .form-control {
+            background-color: $input-bg;
+            margin-bottom: 1.25rem;
+            border-color: $input-bg;
+            height: 46px;
+
+            &:focus {
+                border-color: $primary;
+                outline: $primary;
+                box-shadow: 0 0 0 .13rem rgb(219 68 68 / 24%);
+            }
         }
     }
 
-    textarea {
-        resize: none;
+    .account-description {
+        color: $color-bg;
+        font-size: 1rem;
+        margin-top: 2.5rem;
+        display: block;
+        text-align: center;
+    }
+
+    .sign-up {
+        color: $primary;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .login {
+        margin: 1rem;
+
+        .login-content {
+            margin: 2rem;
+            padding: 2rem;
+            flex: 1;
+        }
+    }
+
+    .img-form {
+        flex: 1;
+
+        img {
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .login {
+        flex-direction: column;
+
+        .login-content {
+            margin: 0 0 1rem 0;
+        }
     }
 
 

@@ -4,6 +4,17 @@ body {
     font-family: $font-medium-sora;
 }
 
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: $primary;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+}
+
 * {
     box-sizing: border-box;
 }

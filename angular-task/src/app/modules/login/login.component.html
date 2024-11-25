@@ -1,14 +1,26 @@
-<div>
-    <h2>Login</h2>
-    <form (ngSubmit)="login()" #loginForm="ngForm">
-        <div>
-            <label for="username">Username</label>
-            <input id="username" type="text" name="username" required [(ngModel)]="username" />
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password" required [(ngModel)]="password" />
-        </div>
-        <button type="submit" [disabled]="!loginForm.valid">Login</button>
-    </form>
-</div>
+<section class="login">
+    <div class="login-content">
+        <h3 class="title">Exclusive</h3>
+        <p class="description">Welcome back !!!</p>
+        <h5 class="title-form">Sing in</h5>
+        <form class="form">
+            <div>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div>
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="d-flex flex-column">
+                <button type="submit" class="btn btn-primary">Submit
+                    <img src="assets/images/arrow-left.svg" alt="login" class="img-fluid" />
+                </button>
+                <span class="account-description">I don’t have an account ? <span class="sign-up">Sign up</span></span>
+            </div>
+        </form>
+    </div>
+    <div class="img-form">
+        <img src="assets/images/login.svg" alt="login" class="img-fluid" />
+    </div>
+</section>
