@@ -1,0 +1,26 @@
+.form-group {
+    label {
+        font-size: $font-14;
+        margin-bottom: 0.5rem;
+        text-transform: capitalize;
+    }
+
+    .form-control {
+        padding: 1.1rem 1.7rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.06px;
+        font-weight: 300;
+        margin-bottom: 1.3rem;
+        border-radius: 0.32rem;
+
+        &::placeholder {
+            color: #8D8D8D;
+        }
+    }
+
+    textarea {
+        resize: none;
+    }
+
+
+}

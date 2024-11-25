@@ -1,0 +1,50 @@
+/** Fonts **/
+@font-face {
+    font-family: "Sora Light";
+    src: url("../../fonts/Sora/Sora-Light.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora Regular";
+    src: url("../../fonts/Sora/Sora-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora Medium";
+    src: url("../../fonts/Sora/Sora-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora Bold";
+    src: url("../../fonts/Sora/Sora-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+
+/* Project Fonts */
+$font-light-sora: "Sora Light", sans-serif;
+$font-regular-sora: "Sora Regular", sans-serif;
+$font-medium-sora: "Sora Medium", sans-serif;
+$font-bold-sora: "Sora Bold", sans-serif;
+
+
+
+/** Font Size **/
+$font-100: 6.25rem;
+$font-60: 3.75rem;
+$font-48: 3rem;
+$font-32: 2rem;
+$font-30: 1.875rem;
+$font-28: 1.75rem;
+$font-26: 1.625rem;
+$font-24: 1.5rem;
+$font-22: 1.375rem;
+$font-20: 1.25rem;
+$font-18: 1.125rem;
+$font-16: 1rem;
+$font-14: 0.875rem;
+$font-12: 0.75rem;
+$font-10: 0.625;

@@ -1,0 +1,27 @@
+body {
+    font-size: $font-16;
+    overflow-x: hidden;
+    font-family: $font-medium-sora;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.margin-bottom-xxl {
+    margin-bottom: 15rem;
+}
+
+.gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+//responsive 
+.margin-bottom-xxl {
+    @include tablet-screen {
+        margin-bottom: 8rem;
+    }
+}
