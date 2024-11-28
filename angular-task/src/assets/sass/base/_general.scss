@@ -30,6 +30,14 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.padding-section {
+    padding: 5rem 0;
+}
+
 //responsive 
 .margin-bottom-xxl {
     @include tablet-screen {

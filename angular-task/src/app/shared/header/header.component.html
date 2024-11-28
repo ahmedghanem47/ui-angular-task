@@ -1,7 +1,77 @@
 <header>
     <main class="header-top">
         <div class="alert alert-dark" role="alert">
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a routerLink="">ShopNow</a>
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a class="shop-now"
+                routerLink="">ShopNow</a>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+
+            </ul>
         </div>
     </main>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid navbar-space">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/Logo.png" class="img-fluid" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <form class="d-flex flex-column flex-lg-row align-items-lg-center gap-3">
+                    <div class="search-input">
+                        <input class="form-control me-2" type="search" placeholder="What are you looking for?"
+                            aria-label="Search">
+                        <img src="assets/images/search.png" class="img-fluid icon-search" alt="search" />
+
+                    </div>
+                    <a class="cursor-pointer">
+                        <img src="assets/images/favorite.svg" class="img-fluid" alt="cart" />
+                    </a>
+                    <a class="cart-count cursor-pointer">
+                        <img src="assets/images/Cart.svg" class="img-fluid" alt="cart" />
+                        <span class="count">2</span>
+                    </a>
+                    <div class="dropdown custom-dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/images/user.svg" class="img-fluid" alt="cart" />
+
+                        </button>
+                        <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">
+                                    <img src="assets/images/user-dropdown.svg" class="img-fluid" alt="cart" />
+                                    Manage My Account</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <img src="assets/images/icon-order.svg" class="img-fluid" alt="cart" />
+                                    My Order</a></li>
+
+                        </ul> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
 </header>
